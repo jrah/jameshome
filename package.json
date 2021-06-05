@@ -8,12 +8,18 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "lint": "yarn lint:js"
+    "lint": "yarn lint:js",
+    "slicemachine": "start-slicemachine --port 9999"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.2",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "@nuxtjs/prismic": "^1.2.6",
+    "@prismicio/vue": "^2.0.11",
+    "nuxt-sm": "^0.0.6",
+    "vue-essential-slices": "^0.3.0",
+    "vue-slicezone": "^0.0.30"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.1.0",
@@ -24,6 +30,9 @@
     "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-nuxt": "^1.0.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.1.2"
+    "prettier": "^2.1.2",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1",
+    "slice-machine-ui": "alpha"
   }
 }
